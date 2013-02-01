@@ -61,10 +61,15 @@ public class XMLParser {
 					if (name.equalsIgnoreCase("title")){
 						// CAMBIAR AL NOMBRE DE TU ACTIVITY
 						entry.put(PrincipalActivity.DATA_TITLE, property.getFirstChild().getNodeValue());
-					} else if (name.equalsIgnoreCase("link")){
+					} 
+					if (name.equalsIgnoreCase("link")){
 						// CAMBIAR AL NOMBRE DE TU ACTIVITY
 						entry.put(PrincipalActivity.DATA_LINK, property.getFirstChild().getNodeValue());						
 					} 
+					if(name.equalsIgnoreCase("description")){
+						// CAMBIAR AL NOMBRE DE TU ACTIVITY
+						entry.put(PrincipalActivity.DATA_DESCRIPTION, property.getFirstChild().getNodeValue());						
+					}
 
 				}
 				entries.add(entry);

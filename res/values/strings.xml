@@ -2,7 +2,14 @@
 <resources>
 
     <string name="app_name">Titulares</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Cargando . . .</string>
     <string name="menu_settings">Settings</string>
+    <string name="btn1">ALT140</string>
+    <string name="btn2">Noticias de Ultima hora</string>
+    <string name="btn3">Nacional</string>
+    <string name="btn4">Mundo</string>
+    <string name="btn5">Tecnologia</string>
+    <string name="cargando_">"Cargando . . . "</string>
+    <string name="foto">Esta es una foto</string>
 
 </resources>
